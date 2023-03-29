@@ -2,7 +2,6 @@
 // import content
 import { useEffect } from "react";
 import { content } from "../data/Content";
-import Typed from 'react-typed'
 const Hero = () => {
   const { hero } = content;
 
@@ -15,13 +14,7 @@ const Hero = () => {
           className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-blue-100 bottom-0 -z-10"
         >
           
-          <div className="animated-typing rotate-90 absolute top-[30%] right-[-15%]  font-Poppins lg:text-2xl text-xl font-extrabold text-white ">
-          <Typed
-          strings={['Engineering Notes', 'Class 10 Notes' , 'Class 12 Notes']}
-          typeSpeed={150}
-          backSpeed={100}
-          loop
-          /></div>
+         
         </div>
 
         {/* first col */}
