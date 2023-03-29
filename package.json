@@ -1,0 +1,40 @@
+{
+  "name": "padhorohit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "aos": "^2.3.4",
+    "crypto-js": "^4.1.1",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "firebase": "^9.18.0",
+    "html2canvas": "^1.4.1",
+    "jsonwebtoken": "^9.0.0",
+    "jspdf": "^2.5.1",
+    "mongoose": "^7.0.3",
+    "next": "13.2.4",
+    "paytmchecksum": "^1.5.0",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.8.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.9.0",
+    "react-toastify": "^9.1.2",
+    "react-top-loading-bar": "^2.3.1",
+    "react-typed": "^1.2.0",
+    "swiper": "^9.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.0"
+  }
+}
